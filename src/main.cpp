@@ -7,12 +7,12 @@ int main(){
 
     Blackjack game;
 
-    game.distribuer();
+    game.distribuerCarte();
 
     while(!game.estTerminee()){
         game.afficherEtat();
 
-        cout << "\nAction (h = hit, s = stay) : "
+        cout << "\nAction (h = hit, s = stay) : ";
         char action; 
         cin >> action;
 
