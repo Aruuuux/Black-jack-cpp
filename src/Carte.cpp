@@ -18,7 +18,7 @@ string Carte::getFamille() const{
 }
 
 string Carte::toString() const{
-    return valeur + "de" + famille;
+    return valeur +  famille;
 }
 
 int Carte::getPoints() const{
